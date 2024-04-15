@@ -1,46 +1,36 @@
-# Getting Started with Create React App
+# Breweries App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project is built with React and TypeScript, focusing on honing skills in fetching, displaying, and searching data from designated API endpoints.
 
-In the project directory, you can run:
+## Custom Hooks
 
-### `npm start`
+- **useFetch**: This hook retrieves an array containing brewery company objects, each accompanied by its respective properties. This data is employed to render the complete list of brewery companies on the UI Company page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Routes
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The most recent version of React Router is utilized for navigation, comprising two primary pages, namely Home and Companies, along with one associated sub-page called CompanyDetail.
 
-### `npm test`
+## Home Page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- This serves as the default landing page of the application.
+- The user interface features a search bar allowing users to search for brewery companies.
 
-### `npm run build`
+## Company Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- This page displays the names of all brewery companies collectively.
+- Users can click on the company names to navigate to the company detail page for further information.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Company Details Page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- This page can be reached by selecting the "more..." option for searched companies on the home page or by navigating through the companies link within the company page.
+- It offers supplementary details for each company, including its address, postal code, telephone number, and a direct link to its website, if available.
 
-### `npm run eject`
+## Styling
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Material UI components are utilized alongside custom CSS styling to design and refine the appearance of the React components across the application.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Deploy
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Please see my React project form here: [Breweries App](https://aliattar1362.github.io/App_Breweries/)
