@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/App_Breweries/static/css/main.631fd1a1.css",
+    "main.js": "/App_Breweries/static/js/main.1abe8c64.js",
+    "static/media/beers.webp": "/App_Breweries/static/media/beers.39672618c40ea1434804.webp",
+    "index.html": "/App_Breweries/index.html",
+    "main.631fd1a1.css.map": "/App_Breweries/static/css/main.631fd1a1.css.map",
+    "main.1abe8c64.js.map": "/App_Breweries/static/js/main.1abe8c64.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.631fd1a1.css",
+    "static/js/main.1abe8c64.js"
+  ]
+}
