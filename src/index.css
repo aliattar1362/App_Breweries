@@ -1,13 +1,214 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+div.home {
+  background-image: url("../src/components/img/beers.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: orange;
+  /* You can add more styles here, such as background position */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+td {
+  text-align: left;
+}
+
+/* Define styles for the div containing the content */
+div {
+  margin-top: 20px; /* Add margin at the top for spacing */
+}
+
+/* Style for the table */
+table {
+  width: 100%; /* Table takes up full width of its container */
+  border-collapse: collapse; /* Merge borders of table cells */
+}
+
+/* Style for table header */
+thead {
+  background-color: #f2f2f2; /* Light gray background */
+  font-size: 25px;
+  color: red;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+thead tr th {
+  padding: 10px; /* Padding for table header cells */
+  text-align: left; /* Align text to the left */
+}
+
+/* Style for table body */
+tbody tr td {
+  padding: 10px; /* Padding for table body cells */
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* Style for links */
+a {
+  text-decoration: none; /* Remove default underline */
+  color: #007bff; /* Blue color for links */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* -- NavBar -- */
+.navBar {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  background-color: rgba(255, 99, 71, 0.5); /* Tomato color with 50% opacity */
+  text-align: left;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.inner-container {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+  padding: 10px;
+  margin: 5px;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px; /* Adjust the distance between links */
+}
+
+.navLink:last-child {
+  margin-right: 10px; /* Remove margin from the last link */
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+/* Style for the input */
+.input-container {
+  position: relative;
+  margin: 50px;
+}
+
+.custom-input {
+  width: 300px;
+  padding: 10px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+.custom-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Styling for the label */
+.input-label {
+  position: flex;
+  top: -18px;
+  left: 10px;
+  background-color: white;
+  padding: 0 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Styling for the information of companies inside the grid-box */
+#companyName {
+  font-style: italic;
+  color: green;
+}
+
+#company-name {
+  font-weight: bold;
+  color: blue;
+}
+
+div.address {
+  font-size: 50px;
+  color: orange;
+}
+
+/* styles.css */
+div.card {
+  background-color: white;
+}
+
+/* Style for h1 in <Companies /> */
+.company-header {
+  color: olivedrab;
+}
+
+.company-name {
+  color: #3f51b5;
+  margin-bottom: 10px;
+}
+
+.company-link {
+  text-decoration: none;
+  color: red;
+}
+
+.company-info {
+  color: blue;
+}
+
+h1#h1 {
+  color: #cfab19;
+  margin-top: 50px;
+  width: 500px;
+  height: 50px;
+  background-color: white;
+  /* Center horizontally and vertically */
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#country-city-street {
+  color: red;
+  border-radius: 25px;
+  width: 400px;
+  height: 50px;
+  background-color: #cfab19;
+  text-align: center;
+  /* Center horizontally and vertically */
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#postal-code {
+  color: brown;
+  border-radius: 25px;
+  width: 100px;
+  height: 50px;
+  background-color: #81ecec;
+  /* Center horizontally and vertically */
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#tel {
+  color: blue;
+  border-radius: 25px;
+  width: 100px;
+  height: 50px;
+  background-color: #00cec9;
+  /* Center horizontally and vertically */
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
